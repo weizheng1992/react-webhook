@@ -1,5 +1,5 @@
 #!/bin/bash
-WORK_PATH = '/usr/projects/vire-react-node'
+WORK_PATH = '/usr/projects/vite-react-node'
 cd $WORK_PATH
 echo "先清除老代码"
 git reset --hard origin/main
