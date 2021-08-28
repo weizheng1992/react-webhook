@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "http": "^0.0.1-security"
-  }
+  },
+  "name": "react-webhook",
+  "version": "1.0.0",
+  "main": "webhook.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "pm2 start ./webhook.js --name webhook --watch",
+    "stop": "pm2 stop webhook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizheng1992/react-webhook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weizheng1992/react-webhook/issues"
+  },
+  "homepage": "https://github.com/weizheng1992/react-webhook#readme",
+  "description": ""
 }
