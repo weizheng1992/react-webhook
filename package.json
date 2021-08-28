@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "crypto": "^1.0.1",
     "http": "^0.0.1-security"
   },
   "name": "react-webhook",
