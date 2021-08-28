@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 WORK_PATH = '/usr/projects/vite-react-node'
 cd $WORK_PATH
 echo "先清除老代码"
