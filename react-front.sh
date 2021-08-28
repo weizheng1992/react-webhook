@@ -14,4 +14,4 @@ echo "停止并删除容器"
 docker stop react-front-container
 docker rm react-front-container
 echo "启动新容器"
-docker container run -p 8090:8090 --name  react-front-container -d react-front:1.0
+docker container run -p 80:80 --name  react-front-container -d react-front:1.0
