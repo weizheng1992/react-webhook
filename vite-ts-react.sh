@@ -6,6 +6,8 @@ git reset --hard origin/main
 git clean -f
 echo "拉去新代码"
 git pull origin main
+echo "编译"
+yarn build
 echo "开始执行构建"
 docker build -t react-front:1.0 .
 echo "停止并删除容器"
