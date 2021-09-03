@@ -9,7 +9,7 @@ git pull origin main
 echo "编译"
 yarn build
 echo "开始执行构建"
-docker build -t react-front:1.0 .
+docker build --no-cache -t react-front:1.0 .
 echo "停止并删除容器"
 docker stop react-front-container
 docker rm react-front-container
