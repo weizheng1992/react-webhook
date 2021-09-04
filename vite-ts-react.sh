@@ -6,6 +6,8 @@ git reset --hard origin/main
 git clean -f
 echo "拉去新代码"
 git pull origin main
+echo "安装modules"
+yarn install
 echo "编译"
 yarn build
 echo "开始执行构建"
